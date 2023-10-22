@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+html, body{
+margin:0;
+padding:0;
+background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Flaptop-wallpaper&psig=AOvVaw26RTdifVqshzRgnVouMLtH&ust=1697975845337000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOiSzIuLh4IDFQAAAAAdAAAAABAR);
+background-repeat: no repeat;
+background-size: cover;
+}
+
+.form-container{
+    margin:auto;
+    margin-top: 200px;/*Center the cantainer horizontally*/
+    padding: 15px;/* add margin-to for vertical centering*/
+    background-color: transparent;
+    color: rgb(19, 243, 232);
+    box-shadow: 10px 5px 10px  rgb(11, 236, 98);
+    width:500px ;
+    height: auto;/*adjust the container height automatically*/
+    position: relative;/*position relative for centering*/
+    top: 50%;/*Move on container up by 50% of its height*/
+    transform: translateY(-50%)/*adjust for the height of the container*/
+}
+
+.input-ico{
+    display:flex ;
+    margin-bottom: 15px;
+}
+
+input-ico: :last-child{
+    margin-bottom: 0px;
+}
+
+.input-ico > i{
+    min-width: 40px;
+    padding: 10px;
+    text-align: 10px;
+    background-color: rgb(230, 13, 250);
+    border-top-right-radius:20px;
+    border-bottom-left-radius: 20px;
+    color: blue;
+} 
+
+.input-ico:hover > i{
+    background-color: aqua;
+    color: blueviolet;
+}
+
+.input-ico > input[type="text"],.input-ico> input[type="password"]{
+    outline:none;
+    border:none;
+    padding: 10px;
+    border: 1px solid lightslategray;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 0px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    width: 100%;    
+}
+
+.button{
+    text-align: center;
+    margin-top: 20px;
+}
+    
+  
